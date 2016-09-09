@@ -1,0 +1,15 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "scripts": {
+	"dm": "cd demo && nw .",
+    "wconf": "set GYP_MSVS_VERSION=2015&&set GYP_DEFINES=target_arch=x64&&gyp binding.gyp -f msvs --depth=. --generator-output build",
+    "wbuild": "set GYP_MSVS_VERSION=2015&&node-gyp build",
+    "clean": "set GYP_MSVS_VERSION=2015&&node-gyp clean",
+    "install": " "
+  },
+  "main": "acrt.js",
+  "dependencies": {
+    "3rd-acrtc-sdk": "^6.0.2"
+  }
+}
