@@ -3,7 +3,7 @@
     "rel_dbg" : 1,
   },
   'includes': [
-    'conf.gypi',
+    '../conf.gypi',
   ],
   "target_defaults": {
     'type': 'executable',

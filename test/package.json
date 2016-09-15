@@ -7,9 +7,5 @@
     "wbuild": "set GYP_MSVS_VERSION=2015&&node-gyp build",
     "clean": "set GYP_MSVS_VERSION=2015&&node-gyp clean",
     "install": " "
-  },
-  "main": "acrt.js",
-  "dependencies": {
-    "3rd-acrtc-sdk": "^6.0.2"
   }
 }

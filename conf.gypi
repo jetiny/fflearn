@@ -41,18 +41,18 @@
             }
           },
           "include_dirs": [
-            "../deps/ffmpeg/include",
-            "../deps/include",
+            "deps/ffmpeg/include",
+            "deps/include",
           ],
           "libraries": [
-            '../../deps/ffmpeg/lib/avcodec.lib',
-            "../../deps/ffmpeg/lib/avdevice.lib",
-            "../../deps/ffmpeg/lib/avfilter.lib",
-            "../../deps/ffmpeg/lib/avformat.lib",
-            "../../deps/ffmpeg/lib/avutil.lib",
-            "../../deps/ffmpeg/lib/postproc.lib",
-            "../../deps/ffmpeg/lib/swresample.lib",
-            "../../deps/ffmpeg/lib/swscale.lib",
+            '../deps/ffmpeg/lib/avcodec.lib',
+            "../deps/ffmpeg/lib/avdevice.lib",
+            "../deps/ffmpeg/lib/avfilter.lib",
+            "../deps/ffmpeg/lib/avformat.lib",
+            "../deps/ffmpeg/lib/avutil.lib",
+            "../deps/ffmpeg/lib/postproc.lib",
+            "../deps/ffmpeg/lib/swresample.lib",
+            "../deps/ffmpeg/lib/swscale.lib",
           ],
         }]
       ]
